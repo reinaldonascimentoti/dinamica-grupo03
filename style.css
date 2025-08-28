@@ -74,7 +74,6 @@ header button {
   background-color: #ffffff;
   color: #000000;
   border: 1;
-  
 }
 
 .button-link {
@@ -89,8 +88,6 @@ header button {
   text-align: center;
   margin-left: 2rem;
 }
-
-
 
 .content {
   padding-top: 240px;
@@ -174,7 +171,7 @@ h1 {
 }
 
 /* Mobile */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .menu {
     display: flex;
     justify-content: space-around;
@@ -302,15 +299,4 @@ h1 {
   font-size: 14px;
   outline: none;
   padding: 5px;
-}
-/* Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
-}
-
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops */
-@media (min-width: 1025px) {
 }
