@@ -430,11 +430,3 @@ h1 {
   outline: none;
   padding: 5px;
 }
-
-/* Laptops */
-@media (min-width: 769px) and (max-width: 1024px) {
-}
-
-/* Desktops */
-@media (min-width: 1025px) {
-}
