@@ -170,19 +170,6 @@ h1 {
   padding: 0;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .menu {
-    display: flex;
-    justify-content: space-around;
-    padding: 0px 5px;
-  }
-
-  .menu li {
-    list-style-type: none;
-    font-size: 12px;
-  }
-
   ul {
     color: #cd313e;
     font-family: Roboto;
@@ -300,3 +287,16 @@ h1 {
   outline: none;
   padding: 5px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 5px;
+  }
+
+  .menu li {
+    list-style-type: none;
+    font-size: 12px;
+  }
